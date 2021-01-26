@@ -1,0 +1,23 @@
+importers:
+  .:
+    dependencies:
+      '@cycle/run': 5.5.0
+    specifiers:
+      '@cycle/run': ^5.5.0
+  xstream:
+    specifiers: {}
+lockfileVersion: 5.2
+packages:
+  /@cycle/run/5.5.0:
+    dependencies:
+      quicktask: 1.1.0
+      xstream: link:linked
+    dev: false
+    engines:
+      node: '>=0.12.0'
+    resolution:
+      integrity: sha512-RZ7Zfai1zfxa0ZP2I4Pu72UgZrRyG3PnivFCe/yYfQBcFHSlUy1biwUTnPB4+k/SE6/cOMTiFqwqu/Y3M+fh1g==
+  /quicktask/1.1.0:
+    dev: false
+    resolution:
+      integrity: sha512-b3w19IEXnt5auacLAbePVsqPyVQUwmuhJQrrWnVhm4pP8PAMg2U9vFHbAD9XYXXbMDjdLJs0x5NLqwTV8uFK4g==
